@@ -1,0 +1,152 @@
+body {
+  font-family: "Josefin Sans", sans-serif;
+  margin: 0px;
+}
+
+a {
+  text-decoration: underline;
+  color: black;
+}
+
+.mainImg {
+  width: 100%;
+  height: 500px;
+  background-image: url("/main.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.name {
+  font-size: 25px;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+.intro {
+  font-size: 90px;
+  padding-bottom: 40px;
+}
+
+.pHeader {
+  padding-top: 40px;
+  font-size: 50px;
+}
+
+.pMain {
+  font-size: 25px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 20%;
+  color: rgba(0, 0, 0, 0.712);
+}
+
+.mainContainer {
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+.imgContainer {
+  margin: 60px;
+}
+
+.Github {
+  padding-bottom: 60px;
+}
+
+.resume {
+  font-size: 25px;
+  font-weight: 900;
+}
+
+.contact-list {
+  font-size: 25px;
+  color: rgba(0, 0, 0, 0.712);
+  line-height: 40px;
+  padding-top: 40px;
+}
+
+::selection {
+  background: #9696967e; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #9696967e; /* Gecko Browsers */
+}
+/* ---------------------------Media screens----------------------------------
+
+xs */
+@media screen and (max-width: 767px) {
+  .mainContainer {
+    margin: 0 6%;
+  }
+  .mainImg {
+    width: 100%;
+    height: 400px;
+    background-image: url("/mainMobile.png");
+    background-size: cover;
+    background-position: center;
+    margin: none;
+  }
+  .imgContainer {
+    margin: 0px;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .mainContainer {
+    margin: 0 6%;
+  }
+}
+
+@media screen and (max-width: 820px) {
+  .intro {
+    font-size: 60px;
+  }
+  .pHeader {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .intro {
+    font-size: 50px;
+  }
+  .pHeader {
+    font-size: 35px;
+  }
+  .name {
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .intro {
+    font-size: 43px;
+  }
+  .pHeader {
+    font-size: 35px;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .intro {
+    font-size: 32px;
+  }
+  .name {
+    font-size: 18px;
+  }
+  .pHeader {
+    font-size: 35px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .pHeader {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 338px) {
+  .pHeader {
+    font-size: 25px;
+  }
+}
